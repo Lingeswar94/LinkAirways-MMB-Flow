@@ -41,7 +41,7 @@ public class ChangeFlightEndTX extends Commonfunction {
 					excelData.getStringBiilingdata("Payment", 14, 1), excelData.getStringBiilingdata("Payment", 15, 1),
 					excelData.getStringBiilingdata("Payment", 16, 1));
 			logger.info("User has completed Billing details ");
-			// ChangeFlightEndTxPage.getChangeFlightEndTxPage().paymentcontinue();
+			ChangeFlightEndTxPage.getChangeFlightEndTxPage().paymentcontinue();
 			logger.info("Application moved to Payment is Processing");
 			String success = ChangeFlightEndTxPage.getChangeFlightEndTxPage().Successmessage.getText();
 			logger.info(success);
