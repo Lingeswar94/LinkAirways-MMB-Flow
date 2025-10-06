@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Lingeshwar\eclipse-workspace\LinkAirwaysMMB\testng.xml</span>
+                    <span>C:\Users\Lingeshwar\git\LinkAirways-MMB-Flow\LinkAirwaysMMB\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -146,21 +146,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">MMBLogin.MMBLoginTC</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ManageBookinglogin">
-                  </a> <!-- ManageBookinglogin -->
-                  <span class="method-name">ManageBookinglogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">MMBChangeFlight.ChangeFlightEndTX</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -206,21 +191,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">MMBChangeFlight.FlightSelection</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectFarecabin">
-                  </a> <!-- selectFarecabin -->
-                  <span class="method-name">selectFarecabin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">MMBChangeFlight.ChangeDateSelection</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -233,17 +203,50 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MMBLogin.MMBLoginTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ManageBookinglogin">
+                  </a> <!-- ManageBookinglogin -->
+                  <span class="method-name">ManageBookinglogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MMBChangeFlight.FlightSelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFarecabin">
+                  </a> <!-- selectFarecabin -->
+                  <span class="method-name">selectFarecabin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Lingeshwar\eclipse-workspace\LinkAirwaysMMB\testng.xml</span>
+            <span class="header-content">C:\Users\Lingeshwar\git\LinkAirways-MMB-Flow\LinkAirwaysMMB\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;UltityFunction.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MMBFLowTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;MMBLogin.MMBLoginTC&quot;/&gt;
       &lt;class name=&quot;MMBChangeFlight.ChangeDateSelection&quot;/&gt;
@@ -252,7 +255,7 @@
       &lt;class name=&quot;MMBChangeFlight.ChangeFlightItinerary&quot;/&gt;
       &lt;class name=&quot;MMBChangeFlight.ChangeFlightEndTX&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- MMBFLowTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,7 +267,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (6 classes)</span>
+                <span class="test-name">MMBFLowTest (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -294,32 +297,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AddonSelection')
 data.setCell(0, 2, 'MMBChangeFlight.ChangeFlightAddonSelection')
-data.setCell(0, 3, 33296);
+data.setCell(0, 3, 12195);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'selectFarecabin')
-data.setCell(1, 2, 'MMBChangeFlight.FlightSelection')
-data.setCell(1, 3, 10640);
+data.setCell(1, 1, 'ManageBookinglogin')
+data.setCell(1, 2, 'MMBLogin.MMBLoginTC')
+data.setCell(1, 3, 6792);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ManageBookinglogin')
-data.setCell(2, 2, 'MMBLogin.MMBLoginTC')
-data.setCell(2, 3, 5723);
+data.setCell(2, 1, 'getpaymentmethod')
+data.setCell(2, 2, 'MMBChangeFlight.ChangeFlightEndTX')
+data.setCell(2, 3, 3001);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getpaymentmethod')
-data.setCell(3, 2, 'MMBChangeFlight.ChangeFlightEndTX')
-data.setCell(3, 3, 4079);
+data.setCell(3, 1, 'selectFarecabin')
+data.setCell(3, 2, 'MMBChangeFlight.FlightSelection')
+data.setCell(3, 3, 865);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Changedatemethod')
 data.setCell(4, 2, 'MMBChangeFlight.ChangeDateSelection')
-data.setCell(4, 3, 751);
+data.setCell(4, 3, 802);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'ChangeFlightPrice')
 data.setCell(5, 2, 'MMBChangeFlight.ChangeFlightItinerary')
-data.setCell(5, 3, 159);
+data.setCell(5, 3, 160);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -340,9 +343,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">MMBChangeFlight.ChangeFlightEndTX</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">quitbrowser</span>
-                <br/>
                 <span class="ignored-method-name">LanuchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitbrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -356,29 +359,29 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">MMBChangeFlight.ChangeFlightItinerary</span>
+              <span class="ignored-class-name">MMBChangeFlight.ChangeDateSelection</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">LanuchBrowser</span>
+                <br/>
                 <span class="ignored-method-name">quitbrowser</span>
                 <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">MMBChangeFlight.ChangeFlightItinerary</span>
+              <div class="ignored-methods-div">
                 <span class="ignored-method-name">LanuchBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitbrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">MMBChangeFlight.FlightSelection</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">LanuchBrowser</span>
-                <br/>
                 <span class="ignored-method-name">quitbrowser</span>
                 <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">MMBChangeFlight.ChangeDateSelection</span>
-              <div class="ignored-methods-div">
                 <span class="ignored-method-name">LanuchBrowser</span>
-                <br/>
-                <span class="ignored-method-name">quitbrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -397,49 +400,49 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">ManageBookinglogin</span>
-                <span class="method-start">2813 ms</span>
+                <span class="method-start">3606 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MMBChangeFlight.ChangeDateSelection</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Changedatemethod</span>
-                <span class="method-start">8549 ms</span>
+                <span class="method-start">10813 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MMBChangeFlight.FlightSelection</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">selectFarecabin</span>
-                <span class="method-start">9302 ms</span>
+                <span class="method-start">23027 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MMBChangeFlight.ChangeFlightAddonSelection</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">AddonSelection</span>
-                <span class="method-start">19965 ms</span>
+                <span class="method-start">28313 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MMBChangeFlight.ChangeFlightItinerary</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ChangeFlightPrice</span>
-                <span class="method-start">53263 ms</span>
+                <span class="method-start">40663 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MMBChangeFlight.ChangeFlightEndTX</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getpaymentmethod</span>
-                <span class="method-start">53424 ms</span>
+                <span class="method-start">41024 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MMBLogin.MMBLoginTC</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">57530 ms</span>
+                <span class="method-start">44731 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

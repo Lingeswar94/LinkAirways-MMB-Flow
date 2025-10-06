@@ -2,54 +2,54 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-30T12:32:24 IST" name="Suite" finished-at="2025-09-30T12:33:19 IST" duration-ms="54760">
+  <suite started-at="2025-10-04T14:25:34 IST" name="Suite" finished-at="2025-10-04T14:26:15 IST" duration-ms="40857">
     <groups>
     </groups>
-    <test started-at="2025-09-30T12:32:24 IST" name="Test" finished-at="2025-09-30T12:33:19 IST" duration-ms="54760">
+    <test started-at="2025-10-04T14:25:34 IST" name="MMBFLowTest" finished-at="2025-10-04T14:26:15 IST" duration-ms="40857">
       <class name="MMBLogin.MMBLoginTC">
-        <test-method is-config="true" signature="LanuchBrowser()[pri:0, instance:MMBLogin.MMBLoginTC@305b7c14]" started-at="2025-09-30T12:32:22 IST" name="LanuchBrowser" finished-at="2025-09-30T12:32:24 IST" duration-ms="2742" status="PASS">
+        <test-method is-config="true" signature="LanuchBrowser()[pri:0, instance:MMBLogin.MMBLoginTC@1757cd72]" started-at="2025-10-04T14:25:31 IST" name="LanuchBrowser" finished-at="2025-10-04T14:25:34 IST" duration-ms="3321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanuchBrowser -->
-        <test-method signature="ManageBookinglogin()[pri:0, instance:MMBLogin.MMBLoginTC@305b7c14]" started-at="2025-09-30T12:32:24 IST" name="ManageBookinglogin" finished-at="2025-09-30T12:32:30 IST" duration-ms="5723" status="PASS">
+        <test-method signature="ManageBookinglogin()[pri:0, instance:MMBLogin.MMBLoginTC@1757cd72]" started-at="2025-10-04T14:25:34 IST" name="ManageBookinglogin" finished-at="2025-10-04T14:25:41 IST" duration-ms="6792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ManageBookinglogin -->
-        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:MMBLogin.MMBLoginTC@305b7c14]" started-at="2025-09-30T12:33:19 IST" name="quitbrowser" finished-at="2025-09-30T12:33:19 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:MMBLogin.MMBLoginTC@1757cd72]" started-at="2025-10-04T14:26:15 IST" name="quitbrowser" finished-at="2025-10-04T14:26:16 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitbrowser -->
       </class> <!-- MMBLogin.MMBLoginTC -->
       <class name="MMBChangeFlight.FlightSelection">
-        <test-method signature="selectFarecabin()[pri:0, instance:MMBChangeFlight.FlightSelection@13b6aecc]" started-at="2025-09-30T12:32:31 IST" name="selectFarecabin" finished-at="2025-09-30T12:32:42 IST" duration-ms="10640" status="PASS">
+        <test-method signature="selectFarecabin()[pri:0, instance:MMBChangeFlight.FlightSelection@6aaceffd]" started-at="2025-10-04T14:25:54 IST" name="selectFarecabin" finished-at="2025-10-04T14:25:55 IST" duration-ms="865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectFarecabin -->
       </class> <!-- MMBChangeFlight.FlightSelection -->
       <class name="MMBChangeFlight.ChangeDateSelection">
-        <test-method signature="Changedatemethod()[pri:0, instance:MMBChangeFlight.ChangeDateSelection@7d8704ef]" started-at="2025-09-30T12:32:30 IST" name="Changedatemethod" finished-at="2025-09-30T12:32:31 IST" duration-ms="751" status="PASS">
+        <test-method signature="Changedatemethod()[pri:0, instance:MMBChangeFlight.ChangeDateSelection@e4487af]" started-at="2025-10-04T14:25:41 IST" name="Changedatemethod" finished-at="2025-10-04T14:25:42 IST" duration-ms="802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Changedatemethod -->
       </class> <!-- MMBChangeFlight.ChangeDateSelection -->
       <class name="MMBChangeFlight.ChangeFlightAddonSelection">
-        <test-method signature="AddonSelection()[pri:0, instance:MMBChangeFlight.ChangeFlightAddonSelection@158a8276]" started-at="2025-09-30T12:32:42 IST" name="AddonSelection" finished-at="2025-09-30T12:33:15 IST" duration-ms="33296" status="PASS">
+        <test-method signature="AddonSelection()[pri:0, instance:MMBChangeFlight.ChangeFlightAddonSelection@c86b9e3]" started-at="2025-10-04T14:25:59 IST" name="AddonSelection" finished-at="2025-10-04T14:26:11 IST" duration-ms="12195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddonSelection -->
       </class> <!-- MMBChangeFlight.ChangeFlightAddonSelection -->
       <class name="MMBChangeFlight.ChangeFlightItinerary">
-        <test-method signature="ChangeFlightPrice()[pri:0, instance:MMBChangeFlight.ChangeFlightItinerary@3c3d9b6b]" started-at="2025-09-30T12:33:15 IST" name="ChangeFlightPrice" finished-at="2025-09-30T12:33:15 IST" duration-ms="159" status="PASS">
+        <test-method signature="ChangeFlightPrice()[pri:0, instance:MMBChangeFlight.ChangeFlightItinerary@10aa41f2]" started-at="2025-10-04T14:26:11 IST" name="ChangeFlightPrice" finished-at="2025-10-04T14:26:11 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChangeFlightPrice -->
       </class> <!-- MMBChangeFlight.ChangeFlightItinerary -->
       <class name="MMBChangeFlight.ChangeFlightEndTX">
-        <test-method signature="getpaymentmethod()[pri:0, instance:MMBChangeFlight.ChangeFlightEndTX@4b3c354a]" started-at="2025-09-30T12:33:15 IST" name="getpaymentmethod" finished-at="2025-09-30T12:33:19 IST" duration-ms="4079" status="PASS">
+        <test-method signature="getpaymentmethod()[pri:0, instance:MMBChangeFlight.ChangeFlightEndTX@293d0107]" started-at="2025-10-04T14:26:12 IST" name="getpaymentmethod" finished-at="2025-10-04T14:26:15 IST" duration-ms="3001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpaymentmethod -->
       </class> <!-- MMBChangeFlight.ChangeFlightEndTX -->
-    </test> <!-- Test -->
+    </test> <!-- MMBFLowTest -->
   </suite> <!-- Suite -->
 </testng-results>
